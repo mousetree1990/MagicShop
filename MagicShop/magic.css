@@ -1,0 +1,358 @@
+ .body{
+     position:fixed;
+     display:flex;
+     background-color: black;
+     width: 100%;
+     height: 100%;
+
+ }
+
+ .shopPicDiv{
+     position: relative;
+     display: flex;
+     background-color: aquamarine;
+     width: 20%;
+     height: 50%;
+     margin: 20px;
+     border-radius: 12px;
+
+ }
+
+ .pic{
+  position: relative;
+  display: flex;
+  border-radius: 6px;
+ }
+
+ .textBox{
+     position: relative;
+     display: flex;
+     background-color: blanchedalmond;
+     width: 46%;
+     height: 15%;
+     margin: 30px;
+     top: 50%;
+     right: 22.8%;
+     border-radius: 6px;
+
+ }
+
+ .innerText{
+     position: relative;
+     display: flex;
+     background-color: rgb(255, 255, 255);
+     width: 95%;
+     left: 2.2%;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 20px;
+     border-radius: 6px;
+     
+ }   
+
+ .shopInventoryDiv{
+    position: absolute;
+    display: flex;
+    background-color:blanchedalmond;
+    width: 46.3%;
+    height: 20%;
+    top: 70%;
+    left: 1%;
+    border-radius: 6px;
+ }
+
+ .shopInv1{
+    position:relative;
+    display: flex;
+    background-color:blanchedalmond;
+    height: 15%;
+    width: 15%;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-style: italic;
+    border-radius: 6px;
+ }
+
+ .shopBuyInv1{
+    position:relative;
+    display: flex;
+    background-color:blanchedalmond;
+    height: 15%;
+    width: 15%;
+    margin: 15px;
+    border-radius: 6px;   
+ }
+
+
+ .shopBuyButton1{
+    background-color:aliceblue;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 16px;
+    border-radius: 6px;
+ }
+
+ .shopBuyButton1:hover{
+  transition: 0.7s;
+  background-color:blanchedalmond;
+  box-shadow: 10px 15px 20px rgb(255, 255, 255);
+ }
+
+ .shopInv2{
+    position:relative;
+    display: flex;
+    background-color:blanchedalmond;
+    height: 15%;
+    width: 15%;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-style: italic;
+    border-radius: 6px;
+ }
+
+ .shopBuyInv2{
+    position:relative;
+    display: flex;
+    background-color: blanchedalmond;
+    height: 15%;
+    width: 15%;
+    margin: 15px;
+    border-radius: 6px;
+ }
+
+ .shopBuyButton2{
+    background-color:aliceblue;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 16px;
+    border-radius: 6px;
+ }
+
+ .shopBuyButton2:hover{
+  transition: 0.7s;
+  background-color:blanchedalmond;
+  box-shadow: 10px 15px 20px rgb(255, 255, 255);
+ }
+
+ .myInvOuter{
+    position: absolute;
+    display:flex;
+    background-color:blanchedalmond;
+    width: 20%;
+    height: 36.5%;
+    right: 31.5%;
+    top:53.5%;
+    border-radius: 6px;
+ }
+
+ .myInvInner{
+   position: absolute;
+   display:flex;
+   background-color:aliceblue;
+   height: 85%;
+   width: 85%;
+   top: 7%;
+   left: 7.5%;
+   border-radius: 6px;
+ }
+
+ .myInv1{
+   position: absolute;
+   display:flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   border-radius: 6px;
+ }
+
+ .myInv2{
+   position: absolute;
+   display:flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   left: 34%;
+   border-radius: 6px;
+ }
+
+ .myInv3{
+   position: absolute;
+   display:flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   left: 68%;
+   border-radius: 6px;
+ }
+
+ .myInv4{
+   position: absolute;
+   display:flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   top: 20%;
+   border-radius: 6px;
+ }
+
+ .myInv5{
+   position: absolute;
+   display:flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   top: 20%;
+   left: 34%;
+   border-radius: 6px;
+ }
+
+ .myInv6{
+   position: absolute;
+   display: flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   top: 20%;
+   left: 68%;
+   border-radius: 6px;
+ }
+
+ .myInv7{
+   position: absolute;
+   display: flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   top: 40.5%;
+   border-radius: 6px;
+ }
+
+ .myInv8{
+   position: absolute;
+   display: flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   top: 40.5%;
+   left: 34%;
+   border-radius: 6px;
+ }
+
+ .myInv9{
+   position: absolute;
+   display: flex;
+   background-color:blanchedalmond;
+   height: 15%;
+   width: 25%;
+   margin: 10px;
+   top: 40.5%;
+   left: 68%;
+   border-radius: 6px;
+ }
+
+ .myInv10{
+  position: absolute;
+  display: flex;
+  background-color:blanchedalmond;
+  height: 15%;
+  width: 25%;
+  margin: 10px;
+  top: 61.5%;
+  border-radius: 6px;
+ }
+
+ .myInv11{
+  position: absolute;
+  display: flex;
+  background-color:blanchedalmond;
+  height: 15%;
+  width: 25%;
+  margin: 10px;
+  top: 61.5%;
+  left: 34%;
+  border-radius: 6px;
+ }
+
+ .myInv12{
+  position: absolute;
+  display: flex;
+  background-color:blanchedalmond;
+  height: 15%;
+  width: 25%;
+  margin: 10px;
+  top: 61.5%;
+  left: 68%;
+  border-radius: 6px;
+ }
+
+ .conditionButton1{
+   position:absolute;
+   display: flex;
+   background-color: aquamarine;
+   height: 5%;
+   width: 5%;
+   left: 80%;
+ }
+
+ .conditionButton2{
+   position:absolute;
+   display: flex;
+   background-color: aquamarine;
+   height: 5%;
+   width: 5%;
+   left: 86%;
+ }
+
+ .conditionButton3{
+   position:absolute;
+   display: flex;
+   background-color: aquamarine;
+   height: 5%;
+   width: 5%;
+   left: 92%;
+ }
+
+ .bgmbt1{
+   position:absolute;
+   display: flex;
+   background-color: blue;
+   height: 10%;
+   width: 10%;
+   left: 60%;
+ }
+
+ .goldPouch{
+   position:absolute;
+   display: flex;
+   background-color:blanchedalmond;
+   height: 5%;
+   width: 5%;
+   left: 50%;
+   top: 48%;
+   border-radius: 4px;
+ }
+
+ .goldPouchText{
+   position: relative;
+   display: flex;
+   background-color:aliceblue;
+   height: 75%;
+   width: 85%;
+   left: 9%;
+   top: 12%;
+   font-size: 20px;
+   border-radius: 4px;
+
+ }
+
+ 
+ 
